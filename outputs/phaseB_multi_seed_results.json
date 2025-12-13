@@ -1,0 +1,422 @@
+{
+  "attn_bgru_bahdanau": {
+    "model_name": "P2-A: ATTN-BGRU + Bahdanau",
+    "individual_runs": [
+      {
+        "test_loss": 0.1257,
+        "test_acc_number": 0.9777,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9794,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1325,
+        "test_acc_number": 0.9759,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9777,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.111,
+        "test_acc_number": 0.9742,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9759,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1448,
+        "test_acc_number": 0.9708,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9725,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1453,
+        "test_acc_number": 0.9759,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9777,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.13186,
+        "std": 0.012818517855040812,
+        "min": 0.111,
+        "max": 0.1453,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.9749000000000001,
+        "std": 0.0023298068589477595,
+        "min": 0.9708,
+        "max": 0.9777,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9951599999999999,
+        "std": 0.0007200000000000096,
+        "min": 0.9948,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9766400000000001,
+        "std": 0.002347424120179397,
+        "min": 0.9725,
+        "max": 0.9794,
+        "n_runs": 5
+      }
+    }
+  },
+  "attn_bgru_luong": {
+    "model_name": "P2-B: ATTN-BGRU + Luong",
+    "individual_runs": [
+      {
+        "test_loss": 0.0994,
+        "test_acc_number": 0.9863,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.988,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1101,
+        "test_acc_number": 0.9777,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9794,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1267,
+        "test_acc_number": 0.9742,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9759,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1415,
+        "test_acc_number": 0.9691,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9708,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.0839,
+        "test_acc_number": 0.9863,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.988,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.11232,
+        "std": 0.020188154942936215,
+        "min": 0.0839,
+        "max": 0.1415,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.97872,
+        "std": 0.006766505745212956,
+        "min": 0.9691,
+        "max": 0.9863,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.99624,
+        "std": 0.0007200000000000096,
+        "min": 0.9948,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.98042,
+        "std": 0.006766505745212956,
+        "min": 0.9708,
+        "max": 0.988,
+        "n_runs": 5
+      }
+    }
+  },
+  "attn_bgru_gate": {
+    "model_name": "P2-C: ATTN-BGRU + Gate",
+    "individual_runs": [
+      {
+        "test_loss": 0.2852,
+        "test_acc_number": 0.9227,
+        "test_acc_tens": 0.9742,
+        "test_acc_ones": 0.945,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1198,
+        "test_acc_number": 0.9845,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9863,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1068,
+        "test_acc_number": 0.9828,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9845,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.0991,
+        "test_acc_number": 0.9863,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.988,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.2792,
+        "test_acc_number": 0.933,
+        "test_acc_tens": 0.9725,
+        "test_acc_ones": 0.9553,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.17802,
+        "std": 0.08534069134943775,
+        "min": 0.0991,
+        "max": 0.2852,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.96186,
+        "std": 0.02798132234187655,
+        "min": 0.9227,
+        "max": 0.9863,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.98658,
+        "std": 0.010835571050941446,
+        "min": 0.9725,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9718199999999999,
+        "std": 0.018024805130708078,
+        "min": 0.945,
+        "max": 0.988,
+        "n_runs": 5
+      }
+    }
+  },
+  "attn_bgru_hc": {
+    "model_name": "P2-D: ATTN-BGRU + HC",
+    "individual_runs": [
+      {
+        "test_loss": 0.1233,
+        "test_acc_number": 0.9777,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9794,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1331,
+        "test_acc_number": 0.9759,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9777,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1653,
+        "test_acc_number": 0.9639,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9656,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1163,
+        "test_acc_number": 0.9794,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9811,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1234,
+        "test_acc_number": 0.9794,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9811,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.13228,
+        "std": 0.017354238675320793,
+        "min": 0.1163,
+        "max": 0.1653,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.9752600000000001,
+        "std": 0.005825667343747003,
+        "min": 0.9639,
+        "max": 0.9794,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9966000000000002,
+        "std": 1.1102230246251565e-16,
+        "min": 0.9966,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.97698,
+        "std": 0.005828001372683426,
+        "min": 0.9656,
+        "max": 0.9811,
+        "n_runs": 5
+      }
+    }
+  },
+  "attn_ugru_gate": {
+    "model_name": "P2-E: ATTN-UGRU + Gate",
+    "individual_runs": [
+      {
+        "test_loss": 0.1212,
+        "test_acc_number": 0.9639,
+        "test_acc_tens": 0.9759,
+        "test_acc_ones": 0.9863,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1416,
+        "test_acc_number": 0.9656,
+        "test_acc_tens": 0.9777,
+        "test_acc_ones": 0.9863,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1209,
+        "test_acc_number": 0.9656,
+        "test_acc_tens": 0.9777,
+        "test_acc_ones": 0.9863,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1548,
+        "test_acc_number": 0.9605,
+        "test_acc_tens": 0.9759,
+        "test_acc_ones": 0.9811,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1101,
+        "test_acc_number": 0.9691,
+        "test_acc_tens": 0.9794,
+        "test_acc_ones": 0.988,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.12972,
+        "std": 0.01615839100900829,
+        "min": 0.1101,
+        "max": 0.1548,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.96494,
+        "std": 0.0027918452679186784,
+        "min": 0.9605,
+        "max": 0.9691,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9773200000000001,
+        "std": 0.001315142577821909,
+        "min": 0.9759,
+        "max": 0.9794,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9856,
+        "std": 0.002344354921934817,
+        "min": 0.9811,
+        "max": 0.988,
+        "n_runs": 5
+      }
+    }
+  },
+  "attn_ugru_hc": {
+    "model_name": "P2-F: ATTN-UGRU + HC",
+    "individual_runs": [
+      {
+        "test_loss": 0.0997,
+        "test_acc_number": 0.9794,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9811,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1335,
+        "test_acc_number": 0.9794,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9811,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1548,
+        "test_acc_number": 0.9708,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9742,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1126,
+        "test_acc_number": 0.9777,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9794,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1142,
+        "test_acc_number": 0.9811,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9828,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.12296,
+        "std": 0.01923523849605198,
+        "min": 0.0997,
+        "max": 0.1548,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.97768,
+        "std": 0.003604108766394272,
+        "min": 0.9708,
+        "max": 0.9811,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.99588,
+        "std": 0.0008818163074019558,
+        "min": 0.9948,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.97972,
+        "std": 0.002962026333441361,
+        "min": 0.9742,
+        "max": 0.9828,
+        "n_runs": 5
+      }
+    }
+  }
+}

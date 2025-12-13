@@ -1,0 +1,487 @@
+{
+  "model_type": "attn_bgru_luong",
+  "model_accuracy": 0.9863,
+  "seed": 42,
+  "num_mistakes_extracted": 8,
+  "mistakes": [
+    {
+      "index": 97,
+      "ground_truth": {
+        "tens": 10,
+        "ones": 9,
+        "jersey_str": "9",
+        "full_number": 9
+      },
+      "prediction": {
+        "tens": 10,
+        "ones": 8,
+        "jersey_str": "8",
+        "full_number": 8
+      },
+      "probabilities": {
+        "tens": {
+          "predicted_class": 0.9990811347961426,
+          "ground_truth_class": 0.9990811347961426,
+          "all_classes": [
+            4.526008342509158e-05,
+            7.3864939622581e-05,
+            4.7977595386328176e-05,
+            4.5087803300702944e-05,
+            0.0002204312477260828,
+            6.206647958606482e-05,
+            0.00014046102296561003,
+            6.379184196703136e-05,
+            0.00012614640581887215,
+            9.378581307828426e-05,
+            0.9990811347961426
+          ]
+        },
+        "ones": {
+          "predicted_class": 0.9955079555511475,
+          "ground_truth_class": 0.002633488504216075,
+          "all_classes": [
+            7.95086525613442e-05,
+            9.056304406840354e-05,
+            9.716265049064532e-05,
+            7.037825707811862e-05,
+            0.0003259714867454022,
+            9.306538413511589e-05,
+            0.0010470899287611246,
+            5.4771287977928296e-05,
+            0.9955079555511475,
+            0.002633488504216075
+          ]
+        }
+      },
+      "sequence_path": "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/138_3535/0",
+      "track_id": "9/138_3535",
+      "frame_paths": [
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/138_3535/0/138_1009_0_anchor.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/138_3535/0/138_1007_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/138_3535/0/138_1008_0.jpg"
+      ],
+      "num_frames": 3
+    },
+    {
+      "index": 139,
+      "ground_truth": {
+        "tens": 10,
+        "ones": 9,
+        "jersey_str": "9",
+        "full_number": 9
+      },
+      "prediction": {
+        "tens": 10,
+        "ones": 8,
+        "jersey_str": "8",
+        "full_number": 8
+      },
+      "probabilities": {
+        "tens": {
+          "predicted_class": 0.9997535347938538,
+          "ground_truth_class": 0.9997535347938538,
+          "all_classes": [
+            1.3972405213280581e-05,
+            1.928585334098898e-05,
+            1.2787497325916775e-05,
+            1.2287276149436366e-05,
+            4.659987462218851e-05,
+            1.5548046576441266e-05,
+            1.749180955812335e-05,
+            1.2527996659628116e-05,
+            7.423821080010384e-05,
+            2.172707718273159e-05,
+            0.9997535347938538
+          ]
+        },
+        "ones": {
+          "predicted_class": 0.9997273087501526,
+          "ground_truth_class": 6.57790296827443e-05,
+          "all_classes": [
+            5.6747453527350444e-06,
+            6.500142262666486e-06,
+            5.1368947424634825e-06,
+            6.391383521986427e-06,
+            0.00014418618229683489,
+            5.876955583516974e-06,
+            2.9806531529175118e-05,
+            3.2693187677068636e-06,
+            0.9997273087501526,
+            6.57790296827443e-05
+          ]
+        }
+      },
+      "sequence_path": "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/915_14541/1",
+      "track_id": "9/915_14541",
+      "frame_paths": [
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/915_14541/1/915_11389_1_anchor.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/915_14541/1/915_11384_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/915_14541/1/915_11385_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/915_14541/1/915_11386_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/915_14541/1/915_11387_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/9/915_14541/1/915_11388_1.jpg"
+      ],
+      "num_frames": 6
+    },
+    {
+      "index": 248,
+      "ground_truth": {
+        "tens": 10,
+        "ones": 6,
+        "jersey_str": "6",
+        "full_number": 6
+      },
+      "prediction": {
+        "tens": 6,
+        "ones": 6,
+        "jersey_str": "66",
+        "full_number": 66
+      },
+      "probabilities": {
+        "tens": {
+          "predicted_class": 0.9977226853370667,
+          "ground_truth_class": 0.0008124727755784988,
+          "all_classes": [
+            0.00010786502389237285,
+            0.00010455992742208764,
+            5.936903471592814e-05,
+            5.092137143947184e-05,
+            0.00024517715792171657,
+            9.993604908231646e-05,
+            0.9977226853370667,
+            6.736946670571342e-05,
+            0.0006031115772202611,
+            0.00012656892067752779,
+            0.0008124727755784988
+          ]
+        },
+        "ones": {
+          "predicted_class": 0.9978041052818298,
+          "ground_truth_class": 0.9978041052818298,
+          "all_classes": [
+            0.0001530632289359346,
+            0.00011213904508622363,
+            0.00011090301268268377,
+            0.0001302500459132716,
+            0.0005852014292031527,
+            0.00010960102372337133,
+            0.9978041052818298,
+            0.0001264432939933613,
+            0.0006855943356640637,
+            0.0001828312233556062
+          ]
+        }
+      },
+      "sequence_path": "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1",
+      "track_id": "6/563_13701",
+      "frame_paths": [
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1/563_6803_1_anchor.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1/563_6796_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1/563_6797_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1/563_6798_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1/563_6799_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1/563_6800_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1/563_6801_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/6/563_13701/1/563_6802_1.jpg"
+      ],
+      "num_frames": 8
+    },
+    {
+      "index": 287,
+      "ground_truth": {
+        "tens": 10,
+        "ones": 4,
+        "jersey_str": "4",
+        "full_number": 4
+      },
+      "prediction": {
+        "tens": 4,
+        "ones": 9,
+        "jersey_str": "49",
+        "full_number": 49
+      },
+      "probabilities": {
+        "tens": {
+          "predicted_class": 0.9441977739334106,
+          "ground_truth_class": 0.04114455357193947,
+          "all_classes": [
+            0.0006851829821243882,
+            0.0008428686414845288,
+            0.0010994389886036515,
+            0.0005233145784586668,
+            0.9441977739334106,
+            0.0005159794818609953,
+            0.005376247689127922,
+            0.0007739260327070951,
+            0.003935626707971096,
+            0.0009051188826560974,
+            0.04114455357193947
+          ]
+        },
+        "ones": {
+          "predicted_class": 0.8861355185508728,
+          "ground_truth_class": 0.004193960689008236,
+          "all_classes": [
+            0.0006478892755694687,
+            0.0010230329353362322,
+            0.0009068583603948355,
+            0.0006045468617230654,
+            0.004193960689008236,
+            0.00040465808706358075,
+            0.10481420904397964,
+            0.0009793346980586648,
+            0.00028987700352445245,
+            0.8861355185508728
+          ]
+        }
+      },
+      "sequence_path": "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/643_6086/0",
+      "track_id": "4/643_6086",
+      "frame_paths": [
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/643_6086/0/643_45609_0_anchor.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/643_6086/0/643_45604_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/643_6086/0/643_45605_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/643_6086/0/643_45606_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/643_6086/0/643_45607_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/643_6086/0/643_45608_0.jpg"
+      ],
+      "num_frames": 6
+    },
+    {
+      "index": 350,
+      "ground_truth": {
+        "tens": 10,
+        "ones": 4,
+        "jersey_str": "4",
+        "full_number": 4
+      },
+      "prediction": {
+        "tens": 10,
+        "ones": 9,
+        "jersey_str": "9",
+        "full_number": 9
+      },
+      "probabilities": {
+        "tens": {
+          "predicted_class": 0.9973406195640564,
+          "ground_truth_class": 0.9973406195640564,
+          "all_classes": [
+            6.384202424669638e-05,
+            8.231469837483019e-05,
+            9.865458559943363e-05,
+            5.8836078096646816e-05,
+            0.0012013656087219715,
+            8.583275484852493e-05,
+            5.9758905990747735e-05,
+            9.987034718506038e-05,
+            0.0007458300096914172,
+            0.00016301248979289085,
+            0.9973406195640564
+          ]
+        },
+        "ones": {
+          "predicted_class": 0.9938795566558838,
+          "ground_truth_class": 0.00014359960914589465,
+          "all_classes": [
+            6.807687896071002e-05,
+            8.374581375392154e-05,
+            9.476693958276883e-05,
+            7.293685484910384e-05,
+            0.00014359960914589465,
+            8.4169369074516e-05,
+            0.0009198218467645347,
+            7.189439929788932e-05,
+            0.0045814523473382,
+            0.9938795566558838
+          ]
+        }
+      },
+      "sequence_path": "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/1382_1742/1",
+      "track_id": "4/1382_1742",
+      "frame_paths": [
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/1382_1742/1/1382_65796_1_anchor.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/1382_1742/1/1382_65793_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/1382_1742/1/1382_65794_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/4/1382_1742/1/1382_65795_1.jpg"
+      ],
+      "num_frames": 4
+    },
+    {
+      "index": 407,
+      "ground_truth": {
+        "tens": 10,
+        "ones": 8,
+        "jersey_str": "8",
+        "full_number": 8
+      },
+      "prediction": {
+        "tens": 10,
+        "ones": 9,
+        "jersey_str": "9",
+        "full_number": 9
+      },
+      "probabilities": {
+        "tens": {
+          "predicted_class": 0.5342362523078918,
+          "ground_truth_class": 0.5342362523078918,
+          "all_classes": [
+            0.0007977476925589144,
+            0.0010819282615557313,
+            0.0009051695233210921,
+            0.0006668765563517809,
+            0.45638030767440796,
+            0.0006320210522972047,
+            0.0014548014150932431,
+            0.0010436257580295205,
+            0.0017166101606562734,
+            0.0010847117519006133,
+            0.5342362523078918
+          ]
+        },
+        "ones": {
+          "predicted_class": 0.9988142251968384,
+          "ground_truth_class": 0.00036913889925926924,
+          "all_classes": [
+            5.0062371883541346e-05,
+            6.665005639661103e-05,
+            8.373769378522411e-05,
+            5.351689105737023e-05,
+            9.72552370512858e-05,
+            4.6770233893767e-05,
+            0.0003436385013628751,
+            7.492309669032693e-05,
+            0.00036913889925926924,
+            0.9988142251968384
+          ]
+        }
+      },
+      "sequence_path": "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/922_2974/0",
+      "track_id": "8/922_2974",
+      "frame_paths": [
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/922_2974/0/922_13936_0_anchor.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/922_2974/0/922_13931_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/922_2974/0/922_13932_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/922_2974/0/922_13933_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/922_2974/0/922_13934_0.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/922_2974/0/922_13935_0.jpg"
+      ],
+      "num_frames": 6
+    },
+    {
+      "index": 447,
+      "ground_truth": {
+        "tens": 10,
+        "ones": 8,
+        "jersey_str": "8",
+        "full_number": 8
+      },
+      "prediction": {
+        "tens": 10,
+        "ones": 9,
+        "jersey_str": "9",
+        "full_number": 9
+      },
+      "probabilities": {
+        "tens": {
+          "predicted_class": 0.9949116110801697,
+          "ground_truth_class": 0.9949116110801697,
+          "all_classes": [
+            0.00011002042447216809,
+            0.00011845170229207724,
+            0.00012661871733143926,
+            0.00010868774552363902,
+            0.0008060485706664622,
+            0.0001879885676316917,
+            0.00032460823422297835,
+            0.00017162175208795816,
+            0.0028336027171462774,
+            0.0003007706254720688,
+            0.9949116110801697
+          ]
+        },
+        "ones": {
+          "predicted_class": 0.9689119458198547,
+          "ground_truth_class": 0.029633451253175735,
+          "all_classes": [
+            0.00017655336705502123,
+            0.00012254407920408994,
+            0.00016760799917392433,
+            0.00012848379265051335,
+            0.0004887281684204936,
+            0.0001629215112188831,
+            8.445053390460089e-05,
+            0.00012334277562331408,
+            0.029633451253175735,
+            0.9689119458198547
+          ]
+        }
+      },
+      "sequence_path": "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/1379_10706/1",
+      "track_id": "8/1379_10706",
+      "frame_paths": [
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/1379_10706/1/1379_26615_1_anchor.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/1379_10706/1/1379_26613_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/1379_10706/1/1379_26614_1.jpg"
+      ],
+      "num_frames": 3
+    },
+    {
+      "index": 529,
+      "ground_truth": {
+        "tens": 10,
+        "ones": 8,
+        "jersey_str": "8",
+        "full_number": 8
+      },
+      "prediction": {
+        "tens": 10,
+        "ones": 4,
+        "jersey_str": "4",
+        "full_number": 4
+      },
+      "probabilities": {
+        "tens": {
+          "predicted_class": 0.9997668862342834,
+          "ground_truth_class": 0.9997668862342834,
+          "all_classes": [
+            1.5311812603613362e-05,
+            2.124193088093307e-05,
+            1.6557489288970828e-05,
+            1.9337772755534388e-05,
+            3.5728749935515225e-05,
+            1.624042670300696e-05,
+            3.475975609035231e-05,
+            1.6823698388179764e-05,
+            3.1028564990265295e-05,
+            2.5959130653063767e-05,
+            0.9997668862342834
+          ]
+        },
+        "ones": {
+          "predicted_class": 0.9369300007820129,
+          "ground_truth_class": 0.05798208341002464,
+          "all_classes": [
+            0.0002511097118258476,
+            0.00021897249098401517,
+            0.00021869575721211731,
+            0.00024150111130438745,
+            0.9369300007820129,
+            0.0002060863480437547,
+            0.00210550450719893,
+            0.00014952063793316483,
+            0.05798208341002464,
+            0.0016964671667665243
+          ]
+        }
+      },
+      "sequence_path": "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/2_11574/1",
+      "track_id": "8/2_11574",
+      "frame_paths": [
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/2_11574/1/2_50769_1_anchor.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/2_11574/1/2_50767_1.jpg",
+        "/home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/2_11574/1/2_50768_1.jpg"
+      ],
+      "num_frames": 3
+    }
+  ]
+}

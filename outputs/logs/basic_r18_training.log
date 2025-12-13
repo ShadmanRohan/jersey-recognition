@@ -1,0 +1,183 @@
+Starting training for basic_r18 model
+Device: cuda, Epochs: 30, Batch size: 64
+LR: 0.001, Warmup: 1 epochs, Grad clip: 1.0
+Mixed precision: True
+Early stopping: patience=30 epochs (based on val loss)
+
+============================================================
+Epoch 1/30
+============================================================
+Learning rate: 0.000014
+Epoch 1/30 | Train Loss: 1.7890, Val Loss: 0.9801 | Train Acc#: 0.5233, Val Acc#: 0.6672
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.6672)
+
+============================================================
+Epoch 2/30
+============================================================
+Epoch 2/30 | Train Loss: 0.5517, Val Loss: 1.0982 | Train Acc#: 0.8193, Val Acc#: 0.6725 | No improvement: 1/30
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.6725)
+
+============================================================
+Epoch 3/30
+============================================================
+Epoch 3/30 | Train Loss: 0.3623, Val Loss: 0.6954 | Train Acc#: 0.8828, Val Acc#: 0.7544
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.7544)
+
+============================================================
+Epoch 4/30
+============================================================
+Epoch 4/30 | Train Loss: 0.2544, Val Loss: 0.3526 | Train Acc#: 0.9147, Val Acc#: 0.8920
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.8920)
+
+============================================================
+Epoch 5/30
+============================================================
+Learning rate: 0.000974
+Epoch 5/30 | Train Loss: 0.1995, Val Loss: 0.4271 | Train Acc#: 0.9369, Val Acc#: 0.8746 | No improvement: 1/30
+
+============================================================
+Epoch 6/30
+============================================================
+Epoch 6/30 | Train Loss: 0.1637, Val Loss: 0.5248 | Train Acc#: 0.9476, Val Acc#: 0.8537 | No improvement: 2/30
+
+============================================================
+Epoch 7/30
+============================================================
+Epoch 7/30 | Train Loss: 0.1391, Val Loss: 0.2970 | Train Acc#: 0.9527, Val Acc#: 0.9199
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9199)
+
+============================================================
+Epoch 8/30
+============================================================
+Epoch 8/30 | Train Loss: 0.1109, Val Loss: 0.5627 | Train Acc#: 0.9669, Val Acc#: 0.8589 | No improvement: 1/30
+
+============================================================
+Epoch 9/30
+============================================================
+Epoch 9/30 | Train Loss: 0.1062, Val Loss: 0.3136 | Train Acc#: 0.9671, Val Acc#: 0.9216 | No improvement: 2/30
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9216)
+
+============================================================
+Epoch 10/30
+============================================================
+Learning rate: 0.000824
+Epoch 10/30 | Train Loss: 0.0772, Val Loss: 0.2942 | Train Acc#: 0.9748, Val Acc#: 0.9251
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9251)
+
+============================================================
+Epoch 11/30
+============================================================
+Epoch 11/30 | Train Loss: 0.0626, Val Loss: 0.3150 | Train Acc#: 0.9793, Val Acc#: 0.9408 | No improvement: 1/30
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9408)
+
+============================================================
+Epoch 12/30
+============================================================
+Epoch 12/30 | Train Loss: 0.0542, Val Loss: 0.2335 | Train Acc#: 0.9842, Val Acc#: 0.9286
+
+============================================================
+Epoch 13/30
+============================================================
+Epoch 13/30 | Train Loss: 0.0410, Val Loss: 0.2231 | Train Acc#: 0.9874, Val Acc#: 0.9512
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9512)
+
+============================================================
+Epoch 14/30
+============================================================
+Epoch 14/30 | Train Loss: 0.0286, Val Loss: 0.2465 | Train Acc#: 0.9914, Val Acc#: 0.9408 | No improvement: 1/30
+
+============================================================
+Epoch 15/30
+============================================================
+Learning rate: 0.000581
+Epoch 15/30 | Train Loss: 0.0311, Val Loss: 0.2619 | Train Acc#: 0.9908, Val Acc#: 0.9338 | No improvement: 2/30
+
+============================================================
+Epoch 16/30
+============================================================
+Epoch 16/30 | Train Loss: 0.0218, Val Loss: 0.2144 | Train Acc#: 0.9944, Val Acc#: 0.9477
+
+============================================================
+Epoch 17/30
+============================================================
+Epoch 17/30 | Train Loss: 0.0096, Val Loss: 0.2219 | Train Acc#: 0.9970, Val Acc#: 0.9477 | No improvement: 1/30
+
+============================================================
+Epoch 18/30
+============================================================
+Epoch 18/30 | Train Loss: 0.0096, Val Loss: 0.2114 | Train Acc#: 0.9972, Val Acc#: 0.9564
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9564)
+
+============================================================
+Epoch 19/30
+============================================================
+Epoch 19/30 | Train Loss: 0.0039, Val Loss: 0.2209 | Train Acc#: 0.9994, Val Acc#: 0.9530 | No improvement: 1/30
+
+============================================================
+Epoch 20/30
+============================================================
+Learning rate: 0.000315
+Epoch 20/30 | Train Loss: 0.0068, Val Loss: 0.1701 | Train Acc#: 0.9985, Val Acc#: 0.9617
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9617)
+
+============================================================
+Epoch 21/30
+============================================================
+Epoch 21/30 | Train Loss: 0.0022, Val Loss: 0.1661 | Train Acc#: 0.9998, Val Acc#: 0.9634
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9634)
+
+============================================================
+Epoch 22/30
+============================================================
+Epoch 22/30 | Train Loss: 0.0047, Val Loss: 0.1734 | Train Acc#: 0.9985, Val Acc#: 0.9617 | No improvement: 1/30
+
+============================================================
+Epoch 23/30
+============================================================
+Epoch 23/30 | Train Loss: 0.0017, Val Loss: 0.1769 | Train Acc#: 0.9996, Val Acc#: 0.9634 | No improvement: 2/30
+
+============================================================
+Epoch 24/30
+============================================================
+Epoch 24/30 | Train Loss: 0.0011, Val Loss: 0.1651 | Train Acc#: 0.9998, Val Acc#: 0.9617
+
+============================================================
+Epoch 25/30
+============================================================
+Learning rate: 0.000102
+Epoch 25/30 | Train Loss: 0.0011, Val Loss: 0.1743 | Train Acc#: 0.9998, Val Acc#: 0.9617 | No improvement: 1/30
+
+============================================================
+Epoch 26/30
+============================================================
+Epoch 26/30 | Train Loss: 0.0014, Val Loss: 0.1809 | Train Acc#: 0.9996, Val Acc#: 0.9652 | No improvement: 2/30
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9652)
+
+============================================================
+Epoch 27/30
+============================================================
+Epoch 27/30 | Train Loss: 0.0011, Val Loss: 0.1745 | Train Acc#: 0.9998, Val Acc#: 0.9669 | No improvement: 3/30
+Saved best checkpoint: outputs/checkpoints/basic_r18_best.pth (Val Acc: 0.9669)
+
+============================================================
+Epoch 28/30
+============================================================
+Epoch 28/30 | Train Loss: 0.0014, Val Loss: 0.1696 | Train Acc#: 0.9994, Val Acc#: 0.9634 | No improvement: 4/30
+
+============================================================
+Epoch 29/30
+============================================================
+Epoch 29/30 | Train Loss: 0.0009, Val Loss: 0.1747 | Train Acc#: 0.9998, Val Acc#: 0.9599 | No improvement: 5/30
+
+============================================================
+Epoch 30/30
+============================================================
+Learning rate: 0.000003
+Epoch 30/30 | Train Loss: 0.0011, Val Loss: 0.1771 | Train Acc#: 0.9996, Val Acc#: 0.9634 | No improvement: 6/30
+
+Evaluating on test set with best model...
+Test Metrics:
+  Loss: 0.1763
+  Acc Number: 0.9536
+  Acc Tens: 0.9914
+  Acc Ones: 0.9588

@@ -1,0 +1,422 @@
+{
+  "seq_brnn_mp": {
+    "model_name": "P1-A: SEQ-BRNN-R18-H128-L1-MP",
+    "individual_runs": [
+      {
+        "test_loss": 0.1724,
+        "test_acc_number": 0.9708,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9725,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1502,
+        "test_acc_number": 0.9742,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9759,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1375,
+        "test_acc_number": 0.9725,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9742,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1611,
+        "test_acc_number": 0.9725,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9742,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1271,
+        "test_acc_number": 0.9777,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9794,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.14966,
+        "std": 0.01615606387707105,
+        "min": 0.1271,
+        "max": 0.1724,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.9735400000000001,
+        "std": 0.002341452540625154,
+        "min": 0.9708,
+        "max": 0.9777,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9966000000000002,
+        "std": 1.1102230246251565e-16,
+        "min": 0.9966,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.97524,
+        "std": 0.002341452540625174,
+        "min": 0.9725,
+        "max": 0.9794,
+        "n_runs": 5
+      }
+    }
+  },
+  "seq_urnn_fs": {
+    "model_name": "P1-B: SEQ-URNN-R18-H128-L1-FS",
+    "individual_runs": [
+      {
+        "test_loss": 0.1517,
+        "test_acc_number": 0.9691,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9725,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1591,
+        "test_acc_number": 0.9674,
+        "test_acc_tens": 0.9931,
+        "test_acc_ones": 0.9725,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1952,
+        "test_acc_number": 0.9691,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9725,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1521,
+        "test_acc_number": 0.9691,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9725,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1453,
+        "test_acc_number": 0.9708,
+        "test_acc_tens": 0.9931,
+        "test_acc_ones": 0.9742,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.16068,
+        "std": 0.017804089417883747,
+        "min": 0.1453,
+        "max": 0.1952,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.9691000000000001,
+        "std": 0.001075174404457236,
+        "min": 0.9674,
+        "max": 0.9708,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.99412,
+        "std": 0.0008328265125462977,
+        "min": 0.9931,
+        "max": 0.9948,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.97284,
+        "std": 0.0006799999999999695,
+        "min": 0.9725,
+        "max": 0.9742,
+        "n_runs": 5
+      }
+    }
+  },
+  "seq_bgru_mp": {
+    "model_name": "P1-C: SEQ-BGRU-R18-H128-L1-MP",
+    "individual_runs": [
+      {
+        "test_loss": 0.1622,
+        "test_acc_number": 0.9759,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9777,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1204,
+        "test_acc_number": 0.9725,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9759,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1523,
+        "test_acc_number": 0.9725,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9742,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1178,
+        "test_acc_number": 0.9828,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9845,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1392,
+        "test_acc_number": 0.9777,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9794,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.13838,
+        "std": 0.017370365568979834,
+        "min": 0.1178,
+        "max": 0.1622,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.97628,
+        "std": 0.003827479588449811,
+        "min": 0.9725,
+        "max": 0.9828,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.99624,
+        "std": 0.0007200000000000096,
+        "min": 0.9948,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.97834,
+        "std": 0.003537569787297518,
+        "min": 0.9742,
+        "max": 0.9845,
+        "n_runs": 5
+      }
+    }
+  },
+  "seq_ugru_fs": {
+    "model_name": "P1-D: SEQ-UGRU-R18-H128-L1-FS",
+    "individual_runs": [
+      {
+        "test_loss": 0.2054,
+        "test_acc_number": 0.9605,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9639,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1599,
+        "test_acc_number": 0.9708,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9725,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1319,
+        "test_acc_number": 0.9742,
+        "test_acc_tens": 0.9931,
+        "test_acc_ones": 0.9794,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1678,
+        "test_acc_number": 0.9639,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9674,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1599,
+        "test_acc_number": 0.9725,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9742,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.16498,
+        "std": 0.023611980010155863,
+        "min": 0.1319,
+        "max": 0.2054,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.96838,
+        "std": 0.005270066413243757,
+        "min": 0.9605,
+        "max": 0.9742,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.99482,
+        "std": 0.0011070682002478622,
+        "min": 0.9931,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.97148,
+        "std": 0.005390139144771693,
+        "min": 0.9639,
+        "max": 0.9794,
+        "n_runs": 5
+      }
+    }
+  },
+  "seq_blstm_mp": {
+    "model_name": "P1-E: SEQ-BLSTM-R18-H128-L1-MP",
+    "individual_runs": [
+      {
+        "test_loss": 0.1532,
+        "test_acc_number": 0.9725,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9742,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1398,
+        "test_acc_number": 0.9742,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9759,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1187,
+        "test_acc_number": 0.9794,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9811,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1591,
+        "test_acc_number": 0.9674,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9691,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1117,
+        "test_acc_number": 0.9759,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9777,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.1365,
+        "std": 0.018614080691777394,
+        "min": 0.1117,
+        "max": 0.1591,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.97388,
+        "std": 0.0039635337768208784,
+        "min": 0.9674,
+        "max": 0.9794,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9966000000000002,
+        "std": 1.1102230246251565e-16,
+        "min": 0.9966,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9756,
+        "std": 0.003973914946246343,
+        "min": 0.9691,
+        "max": 0.9811,
+        "n_runs": 5
+      }
+    }
+  },
+  "seq_ulstm_fs": {
+    "model_name": "P1-F: SEQ-ULSTM-R18-H128-L1-FS",
+    "individual_runs": [
+      {
+        "test_loss": 0.152,
+        "test_acc_number": 0.9691,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9708,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1304,
+        "test_acc_number": 0.9725,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9742,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.1497,
+        "test_acc_number": 0.9725,
+        "test_acc_tens": 0.9931,
+        "test_acc_ones": 0.9759,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.1284,
+        "test_acc_number": 0.9759,
+        "test_acc_tens": 0.9966,
+        "test_acc_ones": 0.9777,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.15,
+        "test_acc_number": 0.9742,
+        "test_acc_tens": 0.9931,
+        "test_acc_ones": 0.9759,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.1421,
+        "std": 0.010418829108877835,
+        "min": 0.1284,
+        "max": 0.152,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.9728399999999999,
+        "std": 0.0022553048574416746,
+        "min": 0.9691,
+        "max": 0.9759,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9944799999999999,
+        "std": 0.0013044539087296487,
+        "min": 0.9931,
+        "max": 0.9966,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9748999999999999,
+        "std": 0.0023298068589477595,
+        "min": 0.9708,
+        "max": 0.9777,
+        "n_runs": 5
+      }
+    }
+  }
+}

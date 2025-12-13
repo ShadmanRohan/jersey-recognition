@@ -1,0 +1,186 @@
+Starting training for attn_ugru_gate model
+Device: cuda, Epochs: 30, Batch size: 64
+LR: 0.001, Warmup: 1 epochs, Grad clip: 1.0
+Mixed precision: True
+Early stopping: patience=30 epochs (based on val loss)
+
+============================================================
+Epoch 1/30
+============================================================
+Learning rate: 0.000001
+Epoch 1/30 | Train Loss: 3.6361, Val Loss: 2.8187 | Train Acc#: 0.1824, Val Acc#: 0.3449
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.3449)
+
+============================================================
+Epoch 2/30
+============================================================
+Epoch 2/30 | Train Loss: 2.3590, Val Loss: 2.0732 | Train Acc#: 0.3638, Val Acc#: 0.3798
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.3798)
+
+============================================================
+Epoch 3/30
+============================================================
+Epoch 3/30 | Train Loss: 1.7909, Val Loss: 1.6584 | Train Acc#: 0.4016, Val Acc#: 0.4355
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.4355)
+
+============================================================
+Epoch 4/30
+============================================================
+Epoch 4/30 | Train Loss: 1.4028, Val Loss: 1.2141 | Train Acc#: 0.5550, Val Acc#: 0.7230
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.7230)
+
+============================================================
+Epoch 5/30
+============================================================
+Learning rate: 0.000097
+Epoch 5/30 | Train Loss: 1.0171, Val Loss: 0.9369 | Train Acc#: 0.7928, Val Acc#: 0.8188
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.8188)
+
+============================================================
+Epoch 6/30
+============================================================
+Epoch 6/30 | Train Loss: 0.8013, Val Loss: 0.8060 | Train Acc#: 0.8625, Val Acc#: 0.8328
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.8328)
+
+============================================================
+Epoch 7/30
+============================================================
+Epoch 7/30 | Train Loss: 0.7000, Val Loss: 0.7649 | Train Acc#: 0.8854, Val Acc#: 0.8833
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.8833)
+
+============================================================
+Epoch 8/30
+============================================================
+Epoch 8/30 | Train Loss: 0.6190, Val Loss: 0.6459 | Train Acc#: 0.8988, Val Acc#: 0.8780
+
+============================================================
+Epoch 9/30
+============================================================
+Epoch 9/30 | Train Loss: 0.5580, Val Loss: 0.6988 | Train Acc#: 0.9170, Val Acc#: 0.8606 | No improvement: 1/30
+
+============================================================
+Epoch 10/30
+============================================================
+Learning rate: 0.000082
+Epoch 10/30 | Train Loss: 0.5398, Val Loss: 0.7253 | Train Acc#: 0.9170, Val Acc#: 0.8223 | No improvement: 2/30
+
+============================================================
+Epoch 11/30
+============================================================
+Epoch 11/30 | Train Loss: 0.5150, Val Loss: 0.6267 | Train Acc#: 0.9290, Val Acc#: 0.9233
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9233)
+
+============================================================
+Epoch 12/30
+============================================================
+Epoch 12/30 | Train Loss: 0.5041, Val Loss: 0.5393 | Train Acc#: 0.9318, Val Acc#: 0.9094
+
+============================================================
+Epoch 13/30
+============================================================
+Epoch 13/30 | Train Loss: 0.4772, Val Loss: 0.5542 | Train Acc#: 0.9395, Val Acc#: 0.8972 | No improvement: 1/30
+
+============================================================
+Epoch 14/30
+============================================================
+Epoch 14/30 | Train Loss: 0.4469, Val Loss: 0.4654 | Train Acc#: 0.9243, Val Acc#: 0.8850
+
+============================================================
+Epoch 15/30
+============================================================
+Learning rate: 0.000058
+Epoch 15/30 | Train Loss: 0.3305, Val Loss: 0.4350 | Train Acc#: 0.9463, Val Acc#: 0.9111
+
+============================================================
+Epoch 16/30
+============================================================
+Epoch 16/30 | Train Loss: 0.3024, Val Loss: 0.3353 | Train Acc#: 0.9510, Val Acc#: 0.9425
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9425)
+
+============================================================
+Epoch 17/30
+============================================================
+Epoch 17/30 | Train Loss: 0.2786, Val Loss: 0.2979 | Train Acc#: 0.9438, Val Acc#: 0.9390
+
+============================================================
+Epoch 18/30
+============================================================
+Epoch 18/30 | Train Loss: 0.2338, Val Loss: 0.2192 | Train Acc#: 0.9510, Val Acc#: 0.9582
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9582)
+
+============================================================
+Epoch 19/30
+============================================================
+Epoch 19/30 | Train Loss: 0.1650, Val Loss: 0.2036 | Train Acc#: 0.9681, Val Acc#: 0.9599
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9599)
+
+============================================================
+Epoch 20/30
+============================================================
+Learning rate: 0.000031
+Epoch 20/30 | Train Loss: 0.1453, Val Loss: 0.2066 | Train Acc#: 0.9726, Val Acc#: 0.9547 | No improvement: 1/30
+
+============================================================
+Epoch 21/30
+============================================================
+Epoch 21/30 | Train Loss: 0.1284, Val Loss: 0.1731 | Train Acc#: 0.9733, Val Acc#: 0.9617
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9617)
+
+============================================================
+Epoch 22/30
+============================================================
+Epoch 22/30 | Train Loss: 0.1048, Val Loss: 0.1615 | Train Acc#: 0.9782, Val Acc#: 0.9599
+
+============================================================
+Epoch 23/30
+============================================================
+Epoch 23/30 | Train Loss: 0.0839, Val Loss: 0.1544 | Train Acc#: 0.9818, Val Acc#: 0.9634
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9634)
+
+============================================================
+Epoch 24/30
+============================================================
+Epoch 24/30 | Train Loss: 0.0720, Val Loss: 0.1477 | Train Acc#: 0.9833, Val Acc#: 0.9652
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9652)
+
+============================================================
+Epoch 25/30
+============================================================
+Learning rate: 0.000010
+Epoch 25/30 | Train Loss: 0.0612, Val Loss: 0.1332 | Train Acc#: 0.9840, Val Acc#: 0.9669
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9669)
+
+============================================================
+Epoch 26/30
+============================================================
+Epoch 26/30 | Train Loss: 0.0557, Val Loss: 0.1259 | Train Acc#: 0.9842, Val Acc#: 0.9669
+
+============================================================
+Epoch 27/30
+============================================================
+Epoch 27/30 | Train Loss: 0.0517, Val Loss: 0.1156 | Train Acc#: 0.9844, Val Acc#: 0.9669
+
+============================================================
+Epoch 28/30
+============================================================
+Epoch 28/30 | Train Loss: 0.0497, Val Loss: 0.1223 | Train Acc#: 0.9846, Val Acc#: 0.9686 | No improvement: 1/30
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9686)
+
+============================================================
+Epoch 29/30
+============================================================
+Epoch 29/30 | Train Loss: 0.0477, Val Loss: 0.1127 | Train Acc#: 0.9844, Val Acc#: 0.9704
+Saved best checkpoint: outputs/checkpoints/attn_ugru_gate_best.pth (Val Acc: 0.9704)
+
+============================================================
+Epoch 30/30
+============================================================
+Learning rate: 0.000000
+Epoch 30/30 | Train Loss: 0.0472, Val Loss: 0.1127 | Train Acc#: 0.9848, Val Acc#: 0.9704 | No improvement: 1/30
+
+Evaluating on test set with best model...
+Test Metrics:
+  Loss: 0.1212
+  Acc Number: 0.9639
+  Acc Tens: 0.9759
+  Acc Ones: 0.9863

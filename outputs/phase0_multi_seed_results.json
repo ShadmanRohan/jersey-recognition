@@ -1,0 +1,464 @@
+{
+  "basic_r18": {
+    "model_name": "P0-A: Basic-R18",
+    "individual_runs": [
+      {
+        "test_loss": 0.1695,
+        "test_acc_number": 0.9485,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9502,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1968,
+        "test_acc_number": 0.9622,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9656,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.2057,
+        "test_acc_number": 0.957,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9622,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.195,
+        "test_acc_number": 0.9605,
+        "test_acc_tens": 0.9914,
+        "test_acc_ones": 0.9639,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1763,
+        "test_acc_number": 0.9536,
+        "test_acc_tens": 0.9914,
+        "test_acc_ones": 0.9588,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.18866000000000002,
+        "std": 0.013540251105500216,
+        "min": 0.1695,
+        "max": 0.2057,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.9563600000000001,
+        "std": 0.004920406487273193,
+        "min": 0.9485,
+        "max": 0.9622,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9914,
+        "std": 0.0018622566955175624,
+        "min": 0.9897,
+        "max": 0.9948,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.96014,
+        "std": 0.005455126029708193,
+        "min": 0.9502,
+        "max": 0.9656,
+        "n_runs": 5
+      },
+      "seed": {
+        "mean": 686.8,
+        "std": 719.0903698423447,
+        "min": 42.0,
+        "max": 2024.0,
+        "n_runs": 5
+      }
+    }
+  },
+  "basic_effb0": {
+    "model_name": "P0-B: Basic-EFFB0",
+    "individual_runs": [
+      {
+        "test_loss": 0.2692,
+        "test_acc_number": 0.957,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9605,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.2107,
+        "test_acc_number": 0.9674,
+        "test_acc_tens": 0.9931,
+        "test_acc_ones": 0.9708,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.3284,
+        "test_acc_number": 0.9502,
+        "test_acc_tens": 0.988,
+        "test_acc_ones": 0.9536,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.2934,
+        "test_acc_number": 0.9502,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9553,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1834,
+        "test_acc_number": 0.9639,
+        "test_acc_tens": 0.9914,
+        "test_acc_ones": 0.9674,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.25702,
+        "std": 0.05316466495709345,
+        "min": 0.1834,
+        "max": 0.3284,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.95774,
+        "std": 0.007007310468360869,
+        "min": 0.9502,
+        "max": 0.9674,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.99038,
+        "std": 0.0017336666346215346,
+        "min": 0.988,
+        "max": 0.9931,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9615200000000002,
+        "std": 0.0066805389004181365,
+        "min": 0.9536,
+        "max": 0.9708,
+        "n_runs": 5
+      },
+      "seed": {
+        "mean": 686.8,
+        "std": 719.0903698423447,
+        "min": 42.0,
+        "max": 2024.0,
+        "n_runs": 5
+      }
+    }
+  },
+  "basic_effl0": {
+    "model_name": "P0-C: Basic-EFFL0",
+    "individual_runs": [
+      {
+        "test_loss": 0.2692,
+        "test_acc_number": 0.957,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9605,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.2107,
+        "test_acc_number": 0.9674,
+        "test_acc_tens": 0.9931,
+        "test_acc_ones": 0.9708,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.3284,
+        "test_acc_number": 0.9502,
+        "test_acc_tens": 0.988,
+        "test_acc_ones": 0.9536,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.2934,
+        "test_acc_number": 0.9502,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9553,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.1834,
+        "test_acc_number": 0.9639,
+        "test_acc_tens": 0.9914,
+        "test_acc_ones": 0.9674,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.25702,
+        "std": 0.05316466495709345,
+        "min": 0.1834,
+        "max": 0.3284,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.95774,
+        "std": 0.007007310468360869,
+        "min": 0.9502,
+        "max": 0.9674,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.99038,
+        "std": 0.0017336666346215346,
+        "min": 0.988,
+        "max": 0.9931,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9615200000000002,
+        "std": 0.0066805389004181365,
+        "min": 0.9536,
+        "max": 0.9708,
+        "n_runs": 5
+      },
+      "seed": {
+        "mean": 686.8,
+        "std": 719.0903698423447,
+        "min": 42.0,
+        "max": 2024.0,
+        "n_runs": 5
+      }
+    }
+  },
+  "basic_mv3l": {
+    "model_name": "P0-D: Basic-MV3-L",
+    "individual_runs": [
+      {
+        "test_loss": 0.2301,
+        "test_acc_number": 0.9416,
+        "test_acc_tens": 0.9914,
+        "test_acc_ones": 0.9467,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.1923,
+        "test_acc_number": 0.9553,
+        "test_acc_tens": 0.9914,
+        "test_acc_ones": 0.9588,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.2134,
+        "test_acc_number": 0.9605,
+        "test_acc_tens": 0.9948,
+        "test_acc_ones": 0.9622,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.2372,
+        "test_acc_number": 0.945,
+        "test_acc_tens": 0.9863,
+        "test_acc_ones": 0.9485,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.234,
+        "test_acc_number": 0.9536,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9588,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.22139999999999999,
+        "std": 0.01670269439342048,
+        "min": 0.1923,
+        "max": 0.2372,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.9512,
+        "std": 0.006923294013690326,
+        "min": 0.9416,
+        "max": 0.9605,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9907199999999999,
+        "std": 0.002762173057576239,
+        "min": 0.9863,
+        "max": 0.9948,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9550000000000001,
+        "std": 0.006194513701655694,
+        "min": 0.9467,
+        "max": 0.9622,
+        "n_runs": 5
+      },
+      "seed": {
+        "mean": 686.8,
+        "std": 719.0903698423447,
+        "min": 42.0,
+        "max": 2024.0,
+        "n_runs": 5
+      }
+    }
+  },
+  "basic_mv3s": {
+    "model_name": "P0-E: Basic-MV3-S",
+    "individual_runs": [
+      {
+        "test_loss": 0.3107,
+        "test_acc_number": 0.9433,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9485,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.3557,
+        "test_acc_number": 0.9381,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9416,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.3652,
+        "test_acc_number": 0.9227,
+        "test_acc_tens": 0.988,
+        "test_acc_ones": 0.9296,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.2786,
+        "test_acc_number": 0.9416,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9485,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.3186,
+        "test_acc_number": 0.9399,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9433,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.32576,
+        "std": 0.031477140912096836,
+        "min": 0.2786,
+        "max": 0.3652,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.93712,
+        "std": 0.007414688125605838,
+        "min": 0.9227,
+        "max": 0.9433,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.9893599999999999,
+        "std": 0.0006800000000000139,
+        "min": 0.988,
+        "max": 0.9897,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9423,
+        "std": 0.006923294013690315,
+        "min": 0.9296,
+        "max": 0.9485,
+        "n_runs": 5
+      },
+      "seed": {
+        "mean": 686.8,
+        "std": 719.0903698423447,
+        "min": 42.0,
+        "max": 2024.0,
+        "n_runs": 5
+      }
+    }
+  },
+  "basic_sv2": {
+    "model_name": "P0-F: Basic-SV2",
+    "individual_runs": [
+      {
+        "test_loss": 0.3604,
+        "test_acc_number": 0.9313,
+        "test_acc_tens": 0.988,
+        "test_acc_ones": 0.9364,
+        "seed": 42
+      },
+      {
+        "test_loss": 0.4763,
+        "test_acc_number": 0.921,
+        "test_acc_tens": 0.9863,
+        "test_acc_ones": 0.9227,
+        "seed": 123
+      },
+      {
+        "test_loss": 0.3083,
+        "test_acc_number": 0.9347,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9399,
+        "seed": 456
+      },
+      {
+        "test_loss": 0.3584,
+        "test_acc_number": 0.9227,
+        "test_acc_tens": 0.9897,
+        "test_acc_ones": 0.9244,
+        "seed": 789
+      },
+      {
+        "test_loss": 0.3427,
+        "test_acc_number": 0.9313,
+        "test_acc_tens": 0.988,
+        "test_acc_ones": 0.9364,
+        "seed": 2024
+      }
+    ],
+    "statistics": {
+      "test_loss": {
+        "mean": 0.36922,
+        "std": 0.0567019364748683,
+        "min": 0.3083,
+        "max": 0.4763,
+        "n_runs": 5
+      },
+      "test_acc_number": {
+        "mean": 0.9282,
+        "std": 0.005358357957434342,
+        "min": 0.921,
+        "max": 0.9347,
+        "n_runs": 5
+      },
+      "test_acc_tens": {
+        "mean": 0.98834,
+        "std": 0.0012721635115031662,
+        "min": 0.9863,
+        "max": 0.9897,
+        "n_runs": 5
+      },
+      "test_acc_ones": {
+        "mean": 0.9319599999999999,
+        "std": 0.007005312269984832,
+        "min": 0.9227,
+        "max": 0.9399,
+        "n_runs": 5
+      },
+      "seed": {
+        "mean": 686.8,
+        "std": 719.0903698423447,
+        "min": 42.0,
+        "max": 2024.0,
+        "n_runs": 5
+      }
+    }
+  }
+}

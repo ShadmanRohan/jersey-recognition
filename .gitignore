@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files - ignore all checkpoints except the best performing one (attn_bgru_luong: 98.63% accuracy)
+*.pth
+!outputs/checkpoints/attn_bgru_luong_best.pth
+

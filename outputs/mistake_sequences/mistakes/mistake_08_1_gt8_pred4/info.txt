@@ -1,0 +1,29 @@
+Mistake #8
+============================================================
+
+Model: attn_bgru_luong
+Model Accuracy: 0.9863
+Seed: 42
+
+Ground Truth:
+  Jersey Number: 8
+  Tens Digit: 10 (blank)
+  Ones Digit: 8
+  Full Number: 8
+
+Prediction:
+  Jersey Number: 4
+  Tens Digit: 10 (blank)
+  Ones Digit: 4
+  Full Number: 4
+
+Probabilities:
+  Tens - Predicted (10): 0.9998
+  Tens - Ground Truth (10): 0.9998
+  Ones - Predicted (4): 0.9369
+  Ones - Ground Truth (8): 0.0580
+
+Sequence Info:
+  Path: /home/rohan/Desktop/Acme2/temporal_jersey_nr_recognition_dataset_subset/8/2_11574/1
+  Track ID: 8/2_11574
+  Number of Frames: 3
