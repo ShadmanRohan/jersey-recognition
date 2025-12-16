@@ -132,4 +132,16 @@ The **attn_bgru_luong** model achieves the highest accuracy at **98.63%** on the
 
 ### Model Weights
 
-The best checkpoint (`attn_bgru_luong_best.pth`) is available in this repository via Git LFS (134.51 MB).
+The best checkpoint ([`attn_bgru_luong_best.pth`](outputs/checkpoints/attn_bgru_luong_best.pth)) is available in this repository via Git LFS (134.51 MB).
+
+## Report
+
+A detailed report on the entire project, including methodology, experiments, results, and analysis, is available:
+
+📄 **[Project Report](SCVE-AAI-ShadmanRohan.pdf)**
+
+The report covers:
+- Complete methodology and model architectures
+- Detailed experimental setup and training procedures
+- Comprehensive results analysis across all phases
+- Performance comparisons and ablation studies
