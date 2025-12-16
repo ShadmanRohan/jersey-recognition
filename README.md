@@ -84,3 +84,54 @@ cd experiments/
 ./phaseA_compare.sh
 ./phaseB_compare.sh
 ```
+
+## Best Model: attn_bgru_luong
+
+The **attn_bgru_luong** model achieves the highest accuracy at **98.63%** on the test set, making it the best-performing model in this project.
+
+### Architecture Diagram
+
+![Model Architecture](architecture.png)
+
+### Parameter Breakdown
+
+**Total Parameters: 11,740,757**
+
+| Component | Parameters | Percentage |
+|-----------|------------|------------|
+| ResNet18 Backbone | 11,176,512 | 95.2% |
+| Bidirectional GRU | 492,288 | 4.2% |
+| Luong Attention | 65,792 | 0.56% |
+| Classifier Heads | 5,397 | 0.05% |
+
+#### Detailed Component Analysis:
+
+1. **ResNet18 Backbone** (11,176,512 params)
+   - ImageNet-pretrained ResNet18 with final classification layer removed
+   - Feature dimension: 512
+   - Calculation: 11,689,512 (full ResNet18) - 513,000 (removed FC layer) = 11,176,512
+
+2. **Bidirectional GRU** (492,288 params)
+   - Input size: 512 (from ResNet18 features)
+   - Hidden size: 128 per direction
+   - Output dimension: 256 (bidirectional)
+   - Formula: 2 directions × 3 gates × (512×128 + 128×128 + 128) = 492,288
+
+3. **Luong Attention** (65,792 params)
+   - Query projection: `Linear(256, 128)` = 32,896 params
+   - Key projection: `Linear(256, 128)` = 32,896 params
+
+4. **Classification Heads** (5,397 params)
+   - Tens digit: `Linear(256, 11)` = 2,827 params (digits 0-9 + blank)
+   - Ones digit: `Linear(256, 10)` = 2,570 params (digits 0-9)
+
+### Performance
+
+- **Best Test Accuracy**: 98.63% (full number accuracy)
+- **Mean Test Accuracy**: 97.87% (±0.68%) across 5 random seeds
+- **Tens Digit Accuracy**: 99.62%
+- **Ones Digit Accuracy**: 98.04%
+
+### Model Weights
+
+The best checkpoint (`attn_bgru_luong_best.pth`) is available in this repository via Git LFS (134.51 MB).
