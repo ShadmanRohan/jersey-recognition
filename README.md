@@ -2,6 +2,8 @@
 
 ## Model Architecture
 
+![Model Architecture](architecture.png)
+
 The project implements a multi-phase approach for jersey number recognition from video sequences:
 
 ### Phase 0: Basic Single-Frame Models
@@ -88,10 +90,6 @@ cd experiments/
 ## Best Model: attn_bgru_luong
 
 The **attn_bgru_luong** model achieves the highest accuracy at **98.63%** on the test set, making it the best-performing model in this project.
-
-### Architecture Diagram
-
-![Model Architecture](architecture.png)
 
 ### Parameter Breakdown
 
